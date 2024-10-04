@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7d8e6;
+    color: #333;
+}
+
+header {
+    background-color: #de8cbf;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.book-now {
+    margin-top: 10px;
+    background-color: #6a2d60;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.location-section {
+    text-align: center;
+    background-color: #de8cbf;
+    padding: 30px 20px;
+}
+
+.location-section h2 {
+    color: white;
+}
+
+.location-section img {
+    width: 300%;
+    max-width: 1000px;
+}
+
+.socials-section {
+    background-color: #f7d8e6;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.socials-section h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.socials-icons img {
+    width: 50px;
+    margin: 10px;
+}
+
+.reviews-section {
+    background-color: #de8cbf;
+    padding: 50px 20px;
+}
+
+.review {
+    background-color: #f7d8e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.review p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.review h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
