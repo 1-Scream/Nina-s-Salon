@@ -251,6 +251,31 @@ img {
     font-weight: 500;
 }
 
+
+.submit {
+    border-radius: 12px;
+    padding: 10px 2px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #dd9ac2;
+    border-radius: 20px;
+    background-color: #4a4063;
+    color: #ffffff;
+    border: 1px solid #dd9ac2;
+    position: relative;
+}
+
+.submit{
+    transition-duration: 0.4s;
+  }
+  
+  .submit:hover {
+    background-color: #eacbd2; 
+    color: #4a4063;
+  }
+  
+
 /* Footer */
 footer {
     background-color: #4A4063;
