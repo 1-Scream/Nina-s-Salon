@@ -166,7 +166,7 @@ h1 {
 hr {
   display: block;
   margin-top: 10em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
@@ -210,4 +210,112 @@ p.reviews {
 }
 .hearts {
   color: #eacbd2;
+}
+
+/* New Section */
+.new-section {
+  background-color: #eacbd2; 
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 500px;
+}
+
+
+
+
+/* Circle */
+.circle {
+    position: absolute;
+    top: 1020px; /* Adjust as needed */
+    left: -59px; /* Adjust as needed */
+    width: 200px;
+    height: 200px;
+    background-color: #dd9ac2; /* Change color as needed */
+    border: 2px solid #eacbd2;
+    border-radius: 100%;
+    z-index: 1000; /* Ensure it's on a different layer */
+}
+.circle2 {
+  position: absolute;
+  top: 1130px; /* Adjust as needed */
+  left: 86px; /* Adjust as needed */
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle3 {
+  position: absolute;
+  top: 919px; /* Adjust as needed */
+  left: 80px; /* Adjust as needed */
+  width: 250px;
+  height: 250px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle4 {
+  position: absolute;
+  top: 1056px; /* Adjust as needed */
+  left: 260px; /* Adjust as needed */
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle5 {
+  position: absolute;
+  top: 1029px; /* Adjust as needed */
+  right: -80px; /* Adjust as needed */
+  width: 250px;
+  height: 250px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle6 {
+  position: absolute;
+  top: 1120px; /* Adjust as needed */
+  right: 90px; /* Adjust as needed */
+  width: 200px;
+  height: 200px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle7 {
+  position: absolute;
+  top: 1040px; /* Adjust as needed */
+  right: 220px; /* Adjust as needed */
+  width: 150px;
+  height: 150px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
+}
+
+.circle8 {
+  position: absolute;
+  top: 1050px; /* Adjust as needed */
+  right: 130px; /* Adjust as needed */
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; /* Change color as needed */
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; /* Ensure it's on a different layer */
 }
