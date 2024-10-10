@@ -1,210 +1,213 @@
 body {
-    font-family: system-ui;
-    margin: 0;
-    padding: 0;
-    background: #dd9ac2;
-    color: #444444;
-    text-align: left;
-  }
-  
-  #rect1 {
-    fill: #b486ab;
-    stroke: #b486ab;
-  }
-  
-  img {
-    position: absolute;
-    top: 65px;
-    right: 150px;
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-  }
- 
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  background: #dd9ac2;
+  color: #444444;
+  text-align: left;
+}
+
+#rect1 {
+  fill: #b486ab;
+  stroke: #b486ab;
+}
+
+img {
+  position: absolute;
+  top: 65px;
+  right: 150px;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+}
+
 /*about us heart*/
 .aboutUs {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
-    background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
-    background-size: cover;
-    background-position: center;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    font-size: 11px;
-    text-align: center;
-    top:0px;
-    left: 100px;
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top: 0px;
+  left: 100px;
+}
 
-  }
-  .aboutUs {
-    transition-duration: 0.4s;
-  }
+.aboutUs {
+  transition-duration: 0.4s;
+}
 
-  .aboutUs:hover {
-    background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
+.aboutUs:hover {
+  background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
 }
 
 /*contactUs heart*/
 .contactUs {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
-    background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
-    background-size: cover;
-    background-position: center;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    font-size: 11px;
-    text-align: center;
-    top:0px;
-    left: 200px;
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 200px;
 
-  }
-  .contactUs {
-    transition-duration: 0.8s;
-  }
+}
+.contactUs {
+  transition-duration: 0.8s;
+}
 
-  .contactUs:hover {
-    background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
+.contactUs:hover {
+  background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
 }
 
 /*main menu heart*/
 .mainMenu {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
-    background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
-    background-size: cover;
-    background-position: center;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    font-size: 11px;
-    text-align: center;
-    top:0px;
-    left: 300px;
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 300px;
 
-  }
-  .mainMenu {
-    transition-duration: 0.8s;
-  }
+}
+.mainMenu {
+  transition-duration: 0.8s;
+}
 
-  .mainMenu:hover {
-    background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
+.mainMenu:hover {
+  background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
 }
 
 
 
-  /*
-  book now Button Code
-  */
-  .bookNow {
-    border-radius: 12px;
-    padding: 20px 82px;
-    font-size: 50px;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    background-color: #dd9ac2;
-    border-radius: 20px;
-    background-color: #4a4063;
-    color: #ffffff;
-    border: 1px solid #dd9ac2;
-    position: relative;
-  }
-  .bookNow {
-    transition-duration: 0.8s;
-  }
-  
-  .bookNow:hover {
-    background-color: #eacbd2; 
-    color: #4a4063;
-  }
-  
-  /* Heart */
-  #heart {
-    position: absolute;
-    width: 100px;
-    height: 90px;
-    top: 239px;
-    right: 1468996px;
-    transform: rotate(32deg);
-  }
-  
-  #heart:before,
-  #heart:after {
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: #eacbd2;
-    border-radius: 50px 50px 0 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
-  }
-  
-  #heart:after {
-    left: 0;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
-  }
-  
-  /* make header above heart */
-  h1,
-  h3 {
-    position: relative;
-    z-index: 2; /* Higher z-index to place it above the heart */
-  }
-  
-  hr {
-    display: block;
-    margin-top: 10em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  }
-  
-  /*reviews header*/
-  
-  p.reviews {
-    color: black;
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    font-family: Montserrat, sans-serif;
-  }
-  
-  .review-section {
-    text-align: center;
-    margin: 50px 0;
-  }
-  .review {
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    width: 30%;
-  }
-  .review {
-    transition-duration: 0.8s;
-  }
-  
-  .review:hover {
-    transform: scale(1, 1.1);
-    background-color: #eacbd2; 
-    color: #4a4063;
-  }
-  .review p {
-    font-size: 18px;
-    color: #444444;
-  }
-  .hearts {
-    color: #eacbd2;
-  }
-  
+/*
+book now Button Code
+*/
+.bookNow {
+  border-radius: 12px;
+  padding: 20px 82px;
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: #dd9ac2;
+  border-radius: 20px;
+  background-color: #4a4063;
+  color: #ffffff;
+  border: 1px solid #dd9ac2;
+  position: relative;
+}
+.bookNow {
+  transition-duration: 0.8s;
+}
+
+.bookNow:hover {
+  background-color: #eacbd2; 
+  color: #4a4063;
+}
+
+/* Heart */
+#heart {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  top: 239px;
+  right: 1468996px;
+  transform: rotate(32deg);
+}
+
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #eacbd2;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+/* make header above heart */
+h1,
+h3 {
+  position: relative;
+  z-index: 2; /* Higher z-index to place it above the heart */
+}
+
+h1 {
+  font-size: 48px; /* Increase the font size as needed */
+}
+
+hr {
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/*reviews header*/
+
+p.reviews {
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.review-section {
+  text-align: center;
+  margin: 50px 0;
+}
+.review {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 30%;
+}
+.review {
+  transition-duration: 0.8s;
+}
+
+.review:hover {
+  transform: scale(1, 1.1);
+  background-color: #eacbd2; 
+  color: #4a4063;
+}
+.review p {
+  font-size: 18px;
+  color: #444444;
+}
+.hearts {
+  color: #eacbd2;
+}
