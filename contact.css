@@ -54,7 +54,7 @@ body {
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    font-size: 11px;
+    font-size: 31px;
     text-align: center;
     top:0px;
     left: 200px;
@@ -70,8 +70,8 @@ body {
 
 /*main menu heart*/
 .mainMenu {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
+    width: 150px; /* Adjust the width as needed */
+    height: 104px; /* Adjust the height as needed */
     background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
     background-size: cover;
     background-position: center;
@@ -79,7 +79,7 @@ body {
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     top:0px;
     left: 300px;
@@ -149,7 +149,7 @@ header h1 {
 
 .socials-section h2 {
     color: #333;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 
@@ -161,17 +161,17 @@ header h1 {
 .review {
     background-color: #f7d8e6;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 20px;
     color: #333;
 }
 
 .review p {
     margin: 0;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .review h3 {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 40px;
 }
