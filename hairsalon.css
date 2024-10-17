@@ -104,6 +104,7 @@ book now Button Code
   border-radius: 12px;
   padding: 20px 82px;
   font-size: 50px;
+  left: 10vvvvvvvvvvvvvvvvvvvvvvv npx;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   background-color: #dd9ac2;
@@ -221,14 +222,14 @@ p.reviews {
   height: 500px;
 }
 
-/* Ensure the main container fits within the viewport */
+
 .main-container {
   max-width: 100%;
   overflow-x: hidden;
   z-index: -20;
 }
 
-/* Ensure child elements do not exceed the container width */
+
 .main-container * {
   box-sizing: border-box;
 }
@@ -236,97 +237,97 @@ p.reviews {
 /* Circle */
 .circle {
     position: absolute;
-    top: 1020px; /* Adjust as needed */
-    left: -59px; /* Adjust as needed */
+    top: 1020px; 
+    left: -59px; 
     width: 200px;
     height: 200px;
-    background-color: #dd9ac2; /* Change color as needed */
+    background-color: #dd9ac2; 
     border: 2px solid #eacbd2;
     border-radius: 100%;
-    z-index: 1000; /* Ensure it's on a different layer */
+    z-index: 1000; 
 }
 .circle2 {
   position: absolute;
-  top: 1130px; /* Adjust as needed */
-  left: 86px; /* Adjust as needed */
+  top: 1130px; 
+  left: 86px; 
   width: 100px;
   height: 100px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; /* Ensure it's on a different layer */
+  z-index: 1000; 
 }
 
 .circle3 {
   position: absolute;
-  top: 919px; /* Adjust as needed */
-  left: 80px; /* Adjust as needed */
+  top: 919px; 
+  left: 80px; 
   width: 250px;
   height: 250px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; /* Ensure it's on a different layer */
+  z-index: 1000; 
 }
 
 .circle4 {
   position: absolute;
-  top: 1056px; /* Adjust as needed */
-  left: 260px; /* Adjust as needed */
+  top: 1056px; 
+  left: 260px; 
   width: 100px;
   height: 100px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; /* Ensure it's on a different layer */
+  z-index: 1000; 
 }
 
 .circle5 {
   position: absolute;
-  top: 1029px; /* Adjust as needed */
-  right: -80px; /* Adjust as needed */
+  top: 1029px; 
+  right: -80px; 
   width: 250px;
   height: 250px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1; /* Ensure it's on a different layer */
+  z-index: 1; 
 }
 
 .circle6 {
   position: absolute;
-  top: 1120px; /* Adjust as needed */
-  right: 90px; /* Adjust as needed */
+  top: 1120px; 
+  right: 90px;
   width: 200px;
   height: 200px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1; /* Ensure it's on a different layer */
+  z-index: 1; 
 }
 
 .circle7 {
   position: absolute;
-  top: 1040px; /* Adjust as needed */
-  right: 220px; /* Adjust as needed */
+  top: 1040px; 
+  right: 220px; 
   width: 150px;
   height: 150px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; /* Ensure it's on a different layer */
+  z-index: 1000; 
 }
 
 .circle8 {
   position: absolute;
-  top: 1050px; /* Adjust as needed */
-  right: 130px; /* Adjust as needed */
+  top: 1050px; 
+  right: 130px; 
   width: 100px;
   height: 100px;
-  background-color: #dd9ac2; /* Change color as needed */
+  background-color: #dd9ac2; 
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; /* Ensure it's on a different layer */
+  z-index: 1000; 
 }
 
  
@@ -335,8 +336,9 @@ p.reviews {
 
 /* Carrousel */
 .container {
-  margin-top: -250px; /* Move the container up by 250 pixels */
-  margin-left: -162px; /* Move the container left by 180 pixels */
+  background-color: #eacbd2;
+  margin-top: -250px; 
+  margin-left: -162px; 
   width: 100%;
   height: 100%;
 
@@ -369,19 +371,19 @@ p.reviews {
     position: absolute;
     width: 60%;
     height: 100%;
-    left: calc(50% - 180px); /* Move the card left by 180 pixels */
-    top: calc(50% - 300px); /* Move the card up by 300 pixels */
+    left: calc(50% - 180px); 
+    top: calc(50% - 300px); 
     transform: translate(-50%, -50%);
     margin: 0px;
     transition: transform .5s ease;
     cursor: pointer;
-    z-index: 6; /* Make sure z-index brings it on top */
+    z-index: 6; 
   }
   
   .cards {
     position: relative;
     width: 100%;
-    height: 300px; /* Give it a fixed height to be visible */
+    height: 300px;
     margin-bottom: 20px;
   }
   
@@ -437,4 +439,9 @@ p.reviews {
     opacity: .4;
     z-index: 4;
   }
+}
+
+#rect2 {
+  fill: #2b8571;
+  stroke: #b486ab;
 }
