@@ -54,7 +54,7 @@ body {
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    font-size: 31px;
+    font-size: 11px;
     text-align: center;
     top:0px;
     left: 200px;
@@ -70,8 +70,8 @@ body {
 
 /*main menu heart*/
 .mainMenu {
-    width: 150px; /* Adjust the width as needed */
-    height: 104px; /* Adjust the height as needed */
+    width: 80px; /* Adjust the width as needed */
+    height: 52px; /* Adjust the height as needed */
     background-image: url('https://i.postimg.cc/RhvP9fR3/about-us-heart.png');
     background-size: cover;
     background-position: center;
@@ -79,7 +79,7 @@ body {
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    font-size: 40px;
+    font-size: 11px;
     text-align: center;
     top:0px;
     left: 300px;
@@ -98,12 +98,11 @@ header {
     background-color: #de8cbf;
     text-align: center;
     padding: 50px 20px;
-    font-size: 100px;
 }
 
 header h1 {
     color: #fff;
-    font-size: 100px;
+    font-size: 36px;
 }
 
 .book-now {
@@ -149,7 +148,7 @@ header h1 {
 
 .socials-section h2 {
     color: #333;
-    font-size: 48px;
+    font-size: 24px;
 }
 
 
@@ -161,17 +160,17 @@ header h1 {
 .review {
     background-color: #f7d8e6;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
     margin-bottom: 20px;
     color: #333;
 }
 
 .review p {
     margin: 0;
-    font-size: 40px;
+    font-size: 14px;
 }
 
 .review h3 {
     margin-top: 0;
-    font-size: 40px;
+    font-size: 18px;
 }
