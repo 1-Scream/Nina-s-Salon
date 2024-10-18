@@ -15,28 +15,28 @@
 
   .hairstyle {
     position: absolute;
-    top: 370px;
+    top: 350px;
     left: 85px;
     width: 300px; 
-    height: 90px; 
+    height: 200px; 
     text-align: right;
   }
 
   .hairtherapy {
     position: absolute;
-    top: 370px;
+    top: 350px;
     left: 560px;
     width: 300px;
-    height: 90px;
+    height: 200px;
     text-align: right;
   }
 
   .haircolor {
     position: absolute;
-    top: 370px;
-    left: 1025px;
+    top: 350px;
+    left: 1080px;
     width: 300px;
-    height: 90px;
+    height: 200px;
     text-align: right
   }
   header img {
@@ -218,21 +218,21 @@ img {
 
 .services div {
     text-align: center;
-    width: 30%;
-    background-color: #DD9AC2;
+    width: 20%;
+    background-color: #EACBD2;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px #EACBD2(0, 0, 0, 0.1);
 }
 
 .services h3 {
-    color: #4A4063;
+    color: #EACBD2;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .services p {
-    color: #4A4063;
+    color: #EACBD2;
 }
 
 /* Info Section */
