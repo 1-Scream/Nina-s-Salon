@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Locks</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <style>
+        svg {
+          width: 100%;
+        }
+        #rect1 {
+          width: 200px;
+          height: 56px;
+        }
+
+        /* Style for Contact Buttons */
+        .Contact-Buttons {
+            margin-top: 30px; /* Adds space between the sections above */
+            text-align: center; /* Center the buttons */
+        }
+
+        .Contact-Buttons img {
+            width: 50px; /* Resize image buttons */
+            height: 50px; /* Resize image buttons */
+            margin: 10px; /* Adds space between the image buttons */
+        }
+
+        /* Optional: Add margin to the section above */
+        header, .location-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <svg>
+            <rect id="rect1" x="-10" y="-5" width="200" height="56"/>
+        </svg>
+    </div>
+
+    <a href="./assignment1.html">
+        <button class="aboutUs"> About Us </button>
+    </a>
+
+    <a href="./Contact.html">
+        <button class="contactUs"> Contact </button>
+    </a>
+
+    <a href="./index.html">
+        <button class="mainMenu"> Home </button>
+    </a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>The Makeover<br>You've Been<br> Waiting For</h1>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1fX5Sd-uYMwDt4LZV0nUNxhESWtlqNegLXqs7UhnkfkfcDA/viewform?usp=sf_link" class="book-now">Book Now</a>
+    </header>
+
+    <!-- Location Section -->
+    <section class="location-section">
+        <h2>Find us: at 47-48, Temple Bar, Dublin</h2>
+        <img src="https://i.postimg.cc/nzrcVSSq/location.png" alt="Location Image">
+    </section>
+
+    <!-- Contact Buttons Section -->
+    <section class="Contact-Buttons">
+        <a href="https://postimg.cc/3yZwm42N" target="_blank">
+            <img src="https://i.postimg.cc/3yZwm42N/Facebook-logo-square.webp" alt="Facebook"/>
+        </a>
+        <a href="https://postimg.cc/47Nx5f15" target="_blank">
+            <img src="https://i.postimg.cc/47Nx5f15/Instagram-icon.webp" alt="Instagram"/>
+        </a>
+        <a href="https://postimg.cc/SX4sn72H" target="_blank">
+            <img src="https://i.postimg.cc/SX4sn72H/X-logo-2023-svg.png" alt="X"/>
+        </a>
+    </section>
+
+</body>
+</html>
