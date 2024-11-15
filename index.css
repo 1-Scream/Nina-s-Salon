@@ -1,0 +1,470 @@
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  background: #dd9ac2;
+  color: #444444;
+  text-align: left;
+}
+
+#rect1 {
+  fill: #b486ab;
+  stroke: #b486ab;
+}
+
+img {
+  position: absolute;
+  top: 65px;
+  right: 150px;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+}
+
+/*about us heart*/
+.aboutUs {
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top: 0px;
+  left: 100px;
+}
+
+.aboutUs {
+  transition-duration: 0.4s;
+}
+
+.aboutUs:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*contactUs heart*/
+.contactUs {
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 200px;
+
+}
+.contactUs {
+  transition-duration: 0.8s;
+}
+
+.contactUs:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*main menu heart*/
+.mainMenu {
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 300px;
+
+}
+.mainMenu {
+  transition-duration: 0.8s;
+}
+
+.mainMenu:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*Faq heart*/
+.faqButton {
+  width: 80px; /* Adjust the width as needed */
+  height: 52px; /* Adjust the height as needed */
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 400px;
+
+}
+.faqButton {
+  transition-duration: 0.8s;
+}
+
+.faqButton:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*
+book now Button Code
+*/
+.bookNow {
+  border-radius: 12px;
+  padding: 20px 82px;
+  font-size: 50px;
+  left: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: #dd9ac2;
+  border-radius: 20px;
+  background-color: #4a4063;
+  color: #ffffff;
+  border: 1px solid #dd9ac2;
+  position: relative;
+}
+.bookNow {
+  transition-duration: 0.8s;
+}
+
+.bookNow:hover {
+  background-color: #eacbd2; 
+  color: #4a4063;
+}
+
+/* Heart */
+#heart {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  top: 239px;
+  right: 1468996px;
+  transform: rotate(32deg);
+}
+
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #eacbd2;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+/* make header above heart */
+h1,
+h3 {
+  position: relative;
+  z-index: 2; /* Higher z-index to place it above the heart */
+}
+
+h1 {
+  font-size: 48px; /* Increase the font size as needed */
+}
+
+hr {
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/*reviews header*/
+
+p.reviews {
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.review-section {
+  text-align: center;
+  margin: 50px 0;
+}
+.review {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 30%;
+}
+.review {
+  transition-duration: 0.8s;
+}
+
+.review:hover {
+  transform: scale(1, 1.1);
+  background-color: #eacbd2; 
+  color: #4a4063;
+}
+.review p {
+  font-size: 18px;
+  color: #444444;
+}
+.hearts {
+  color: #eacbd2;
+}
+
+/* New Section */
+.new-section {
+  background-color: #eacbd2; 
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 500px;
+}
+
+
+.main-container {
+  max-width: 100%;
+  overflow-x: hidden;
+  z-index: -20;
+}
+
+
+.main-container * {
+  box-sizing: border-box;
+}
+
+/* Circle */
+.circle {
+    position: absolute;
+    top: 1020px; 
+    left: -59px; 
+    width: 200px;
+    height: 200px;
+    background-color: #dd9ac2; 
+    border: 2px solid #eacbd2;
+    border-radius: 100%;
+    z-index: 1000; 
+}
+.circle2 {
+  position: absolute;
+  top: 1130px; 
+  left: 86px; 
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; 
+}
+
+.circle3 {
+  position: absolute;
+  top: 919px; 
+  left: 80px; 
+  width: 250px;
+  height: 250px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; 
+}
+
+.circle4 {
+  position: absolute;
+  top: 1056px; 
+  left: 260px; 
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; 
+}
+
+.circle5 {
+  position: absolute;
+  top: 1029px; 
+  right: -80px; 
+  width: 250px;
+  height: 250px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1; 
+}
+
+.circle6 {
+  position: absolute;
+  top: 1120px; 
+  right: 90px;
+  width: 200px;
+  height: 200px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1; 
+}
+
+.circle7 {
+  position: absolute;
+  top: 1040px; 
+  right: 220px; 
+  width: 150px;
+  height: 150px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; 
+}
+
+.circle8 {
+  position: absolute;
+  top: 1050px; 
+  right: 130px; 
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2; 
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000; 
+}
+
+ 
+
+/* Carrousel */
+
+/* Carrousel */
+.container {
+  background-color: #eacbd2;
+  margin-top: -250px; 
+  margin-left: -162px; 
+  width: 100%;
+  height: 100%;
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    font-family: 'DM Sans', sans-serif;
+    transition: background .4s ease-in;
+    background-color: #c394f8;
+  }
+  
+  input[type=radio] {
+    display: none;
+  }
+  
+  .card {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: calc(50% - 180px); 
+    top: calc(50% - 300px); 
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    transition: transform .5s ease;
+    cursor: pointer;
+    z-index: 6; 
+  }
+  
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit:inherit;
+  }
+  
+  #item-1:checked ~ .cards #hairstyle3, #item-2:checked ~ .cards #hairstyle1, #item-3:checked ~ .cards #hairstyle2 {
+    transform: translateX(-20%) scale(.8);
+    opacity: .4;
+    z-index: 3;
+  }
+  
+  #item-1:checked ~ .cards #hairstyle2, #item-2:checked ~ .cards #hairstyle3, #item-3:checked ~ .cards #hairstyle1 {
+    transform: translateX(20%) scale(.8);
+    opacity: .4;
+    z-index: 3;
+  }
+  
+  #item-1:checked ~ .cards #hairstyle1, #item-2:checked ~ .cards #hairstyle2, #item-3:checked ~ .cards #hairstyle3 {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 5;
+    
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }
+  }
+  
+  #item-1:checked ~ .cards #hairstyle1,
+  #item-2:checked ~ .cards #hairstyle2,
+  #item-3:checked ~ .cards #hairstyle3 {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 5;
+  }
+  
+  #item-1:checked ~ .cards #hairstyle2,
+  #item-2:checked ~ .cards #hairstyle3,
+  #item-3:checked ~ .cards #hairstyle1 {
+    transform: translateX(40%) scale(.8);
+    opacity: .4;
+    z-index: 3;
+  }
+  
+  #item-1:checked ~ .cards #hairstyle3,
+  #item-2:checked ~ .cards #hairstyle1,
+  #item-3:checked ~ .cards #hairstyle2 {
+    transform: translateX(-40%) scale(.8);
+    opacity: .4;
+    z-index: 4;
+  }
+}
+
+#rect2 {
+  fill: #2b8571;
+  stroke: #4311e8;
+}

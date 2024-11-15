@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #de8cbf;
+    color: #333;
+}
+#rect1 {
+  fill: #b486ab;
+  stroke: #b486ab;
+}
+
+img {
+  position: absolute;
+  top: 65px;
+  right: 150px;
+  width: 400px;  
+  height: 400px;  
+}
+
+/*about us heart*/
+.aboutUs {
+  width: 80px;  
+  height: 52px;  
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top: 0px;
+  left: 100px;
+}
+
+.aboutUs {
+  transition-duration: 0.4s;
+}
+
+.aboutUs:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*contactUs heart*/
+.contactUs {
+  width: 80px;  
+  height: 52px;  
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 200px;
+
+}
+.contactUs {
+  transition-duration: 0.8s;
+}
+
+.contactUs:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*main menu heart*/
+.mainMenu {
+  width: 80px;  
+  height: 52px;  
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 300px;
+
+}
+.mainMenu {
+  transition-duration: 0.8s;
+}
+
+.mainMenu:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+/*Faq heart*/
+.faqButton {
+  width: 80px;  
+  height: 52px;  
+  background-image: url('./about\ us\ heart.webp');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top:0px;
+  left: 400px;
+
+}
+.faqButton {
+  transition-duration: 0.8s;
+}
+
+.faqButton:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+
+
+/*  FAQ and Email sections */
+.faq-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.faq-section h2 {
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.faq, .email-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 1 1 calc(33.333% - 20px); 
+}
+
+
+
+.centered-faq {
+    flex: 1 1 100%; /* Make the centered FAQ take the full width */
+    text-align: center; /* Center the text inside the FAQ */
+}
+
+.email-section {
+    flex: 1 1 100%; /* Make the email section take the full width */
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.faq h3, .email-section h2 {
+    margin-bottom: 10px;
+}
+
+.faq p, .email-section p {
+    margin: 0;
+}
+
+/* Style for Button Section */
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.button-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-item:hover {
+    background-color: #e0e0e0;
+}
