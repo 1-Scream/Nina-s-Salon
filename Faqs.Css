@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #de8cbf;
+    background-color: #dd9ac2;
     color: #333;
 }
 #rect1 {
@@ -13,10 +13,23 @@ body {
 img {
   position: absolute;
   top: 65px;
-  right: 150px;
+  left: 35.3%;
   width: 400px;  
   height: 400px;  
 }
+
+.logo {
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  padding: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 
 /*about us heart*/
 .aboutUs {
@@ -137,8 +150,9 @@ img {
     justify-content: center; 
 }
 
-.faq, .email-section {
+.faq, .email-section,.socials-section {
     background-color: #ffffff;
+    text-align: center;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -174,18 +188,87 @@ img {
     margin: 20px 0;
 }
 
-.button-item {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    text-align: center;
+.button-insta {
+  flex: 1;
+  left: 35%;
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-image: url('./insta_button.webp');
+  width: 100px; 
+  height: 100px; 
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+
+  
 }
 
-.button-item:hover {
-    background-color: #e0e0e0;
+.button-insta {
+  transition-duration: 0.8s;
+}
+
+.button-insta:hover {
+  background-image: url('./insta_purple.webp');
+
+}
+
+.button-tt {
+  flex: 1;
+  margin: 0 10px;
+  left: 45%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-image: url('./tt_button.webp');
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+}
+.button-tt {
+  transition-duration: 0.8s;
+}
+.button-tt:hover {
+  background-image: url('./tt_purple.webp');
+}
+
+.button-fb {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  left: 55%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-image: url('./fb_button.webp');
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+}
+
+.button-fb {
+  transition-duration: 0.8s;
+}
+
+.button-fb:hover {
+  background-image: url('./fb_purple.webp');
 }
