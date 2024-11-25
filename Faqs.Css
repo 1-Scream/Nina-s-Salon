@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +17,7 @@ body {
 img {
   position: absolute;
   top: 65px;
-  left: 35.3%;
+  left: 35.5%;
   width: 400px;  
   height: 400px;  
 }
@@ -45,7 +49,7 @@ img {
   font-size: 11px;
   text-align: center;
   top: 0px;
-  left: 100px;
+  left: 50px;
 }
 
 .aboutUs {
@@ -70,7 +74,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 200px;
+  left: 150px;
 
 }
 .contactUs {
@@ -95,7 +99,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 300px;
+  left: 250px;
 
 }
 .mainMenu {
@@ -120,7 +124,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 400px;
+  left: 350px;
 
 }
 .faqButton {
@@ -160,7 +164,16 @@ img {
     flex: 1 1 calc(33.333% - 20px); 
 }
 
+.faq:hover{
+  transform: translateY(-5px);
+ 
+  text-decoration-color: #ff0099;
+  
+}
 
+.faq{
+  transition-duration: 0.8s;
+}
 
 .centered-faq {
     flex: 1 1 100%; /* Make the centered FAQ take the full width */
@@ -171,7 +184,51 @@ img {
     flex: 1 1 100%; /* Make the email section take the full width */
     text-align: center;
     font-size: 1.5em;
+    min-height: 100%;
+    overflow: hidden;
+    
+ 
 }
+.empty {
+  padding: 10px;
+  color: #ffffff;
+}
+
+/* Animation */
+
+.line-1{
+  position: relative;
+  font-family: 'Anonymous Pro', monospace;
+  width: 30px;
+  padding-top: 250%;
+  top: 100%;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 181%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-0%);
+  overflow:hidden ;
+  padding: 10px;
+}
+
+
+
+.anim-typewriter{
+  animation: typewriter 6s steps(45) 1s 1 normal both,
+             blinkTextCursor 500ms steps(45) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 31em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(44, 42, 42, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+/*end animation*/
+
 
 .faq h3, .email-section h2 {
     margin-bottom: 10px;

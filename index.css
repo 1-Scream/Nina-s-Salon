@@ -34,7 +34,7 @@ img {
   font-size: 11px;
   text-align: center;
   top: 0px;
-  left: 100px;
+  left: 50px;
 }
 
 .aboutUs {
@@ -59,7 +59,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 200px;
+  left: 150px;
 
 }
 .contactUs {
@@ -84,7 +84,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 300px;
+  left: 250px;
 
 }
 .mainMenu {
@@ -109,7 +109,7 @@ img {
   font-size: 11px;
   text-align: center;
   top:0px;
-  left: 400px;
+  left: 350px;
 
 }
 .faqButton {
@@ -199,7 +199,7 @@ hr {
 
 /*reviews header*/
 
-p.reviews {
+p.logo {
   color: black;
   text-align: center;
   font-size: 32px;
