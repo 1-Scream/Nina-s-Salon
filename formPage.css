@@ -1,0 +1,143 @@
+body {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    background: #dd9ac2;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#rect1 {
+    fill: #b486ab;
+    stroke: #b486ab;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  img {
+    position: absolute;
+    top: 65px;
+    left: 35.5%;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .logo {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    padding: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /*about us heart*/
+  .aboutUs {
+    width: 80px;
+    height: 52px;
+    background-image: url('./about\ us\ heart.webp');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    top: 0px;
+    left: 50px;
+  }
+  
+  .aboutUs {
+    transition-duration: 0.4s;
+  }
+  
+  .aboutUs:hover {
+    background-image: url('./about\ us\ heart\ white.webp');
+  }
+  
+  /*contactUs heart*/
+  .contactUs {
+    width: 80px;
+    height: 52px;
+    background-image: url('./about\ us\ heart.webp');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    top: 0px;
+    left: 150px;
+  
+  }
+  
+  .contactUs {
+    transition-duration: 0.8s;
+  }
+  
+  .contactUs:hover {
+    background-image: url('./about\ us\ heart\ white.webp');
+  }
+  
+  /*main menu heart*/
+  .mainMenu {
+    width: 80px;
+    height: 52px;
+    background-image: url('./about\ us\ heart.webp');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    top: 0px;
+    left: 250px;
+  
+  }
+  
+  .mainMenu {
+    transition-duration: 0.8s;
+  }
+  
+  .mainMenu:hover {
+    background-image: url('./about\ us\ heart\ white.webp');
+  }
+  
+  /*Faq heart*/
+  .faqButton {
+    width: 80px;
+    height: 52px;
+    background-image: url('./about\ us\ heart.webp');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    top: 0px;
+    left: 350px;
+  
+  }
+  
+  .faqButton {
+    transition-duration: 0.8s;
+  }
+  
+  .faqButton:hover {
+    background-image: url('./about\ us\ heart\ white.webp');
+  }

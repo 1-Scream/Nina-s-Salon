@@ -16,14 +16,14 @@ img {
   position: absolute;
   top: 65px;
   right: 150px;
-  width: 400px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
+  width: 400px;
+  height: 400px;
 }
 
 /*about us heart*/
 .aboutUs {
-  width: 80px; /* Adjust the width as needed */
-  height: 52px; /* Adjust the height as needed */
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -47,8 +47,8 @@ img {
 
 /*contactUs heart*/
 .contactUs {
-  width: 80px; /* Adjust the width as needed */
-  height: 52px; /* Adjust the height as needed */
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -58,10 +58,11 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 150px;
 
 }
+
 .contactUs {
   transition-duration: 0.8s;
 }
@@ -72,8 +73,8 @@ img {
 
 /*main menu heart*/
 .mainMenu {
-  width: 80px; /* Adjust the width as needed */
-  height: 52px; /* Adjust the height as needed */
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -83,10 +84,11 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 250px;
 
 }
+
 .mainMenu {
   transition-duration: 0.8s;
 }
@@ -97,8 +99,8 @@ img {
 
 /*Faq heart*/
 .faqButton {
-  width: 80px; /* Adjust the width as needed */
-  height: 52px; /* Adjust the height as needed */
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -108,10 +110,11 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 350px;
 
 }
+
 .faqButton {
   transition-duration: 0.8s;
 }
@@ -137,12 +140,13 @@ book now Button Code
   border: 1px solid #dd9ac2;
   position: relative;
 }
+
 .bookNow {
   transition-duration: 0.8s;
 }
 
 .bookNow:hover {
-  background-color: #eacbd2; 
+  background-color: #eacbd2;
   color: #4a4063;
 }
 
@@ -180,11 +184,11 @@ book now Button Code
 h1,
 h3 {
   position: relative;
-  z-index: 2; /* Higher z-index to place it above the heart */
+  z-index: 2;
 }
 
 h1 {
-  font-size: 48px; /* Increase the font size as needed */
+  font-size: 48px;
 }
 
 hr {
@@ -211,6 +215,7 @@ p.logo {
   text-align: center;
   margin: 50px 0;
 }
+
 .review {
   background: white;
   padding: 20px;
@@ -219,26 +224,29 @@ p.logo {
   display: inline-block;
   width: 30%;
 }
+
 .review {
   transition-duration: 0.8s;
 }
 
 .review:hover {
   transform: scale(1, 1.1);
-  background-color: #eacbd2; 
+  background-color: #eacbd2;
   color: #4a4063;
 }
+
 .review p {
   font-size: 18px;
   color: #444444;
 }
+
 .hearts {
   color: #eacbd2;
 }
 
 /* New Section */
 .new-section {
-  background-color: #eacbd2; 
+  background-color: #eacbd2;
   padding: 20px;
   margin-top: 20px;
   text-align: center;
@@ -259,205 +267,213 @@ p.logo {
 
 /* Circle */
 .circle {
-    position: absolute;
-    top: 1020px; 
-    left: -59px; 
-    width: 200px;
-    height: 200px;
-    background-color: #dd9ac2; 
-    border: 2px solid #eacbd2;
-    border-radius: 100%;
-    z-index: 1000; 
-}
-.circle2 {
   position: absolute;
-  top: 1130px; 
-  left: 86px; 
-  width: 100px;
-  height: 100px;
-  background-color: #dd9ac2; 
+  top: 1020px;
+  left: -59px;
+  width: 200px;
+  height: 200px;
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; 
+  z-index: 1000;
+}
+
+.circle2 {
+  position: absolute;
+  top: 1130px;
+  left: 86px;
+  width: 100px;
+  height: 100px;
+  background-color: #dd9ac2;
+  border: 2px solid #eacbd2;
+  border-radius: 100%;
+  z-index: 1000;
 }
 
 .circle3 {
   position: absolute;
-  top: 919px; 
-  left: 80px; 
+  top: 919px;
+  left: 80px;
   width: 250px;
   height: 250px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .circle4 {
   position: absolute;
-  top: 1056px; 
-  left: 260px; 
+  top: 1056px;
+  left: 260px;
   width: 100px;
   height: 100px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .circle5 {
   position: absolute;
-  top: 1029px; 
-  right: -80px; 
+  top: 1029px;
+  right: -80px;
   width: 250px;
   height: 250px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .circle6 {
   position: absolute;
-  top: 1120px; 
+  top: 1120px;
   right: 90px;
   width: 200px;
   height: 200px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .circle7 {
   position: absolute;
-  top: 1040px; 
-  right: 220px; 
+  top: 1040px;
+  right: 220px;
   width: 150px;
   height: 150px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .circle8 {
   position: absolute;
-  top: 1050px; 
-  right: 130px; 
+  top: 1050px;
+  right: 130px;
   width: 100px;
   height: 100px;
-  background-color: #dd9ac2; 
+  background-color: #dd9ac2;
   border: 2px solid #eacbd2;
   border-radius: 100%;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
- 
+
 
 /* Carrousel */
 
 /* Carrousel */
 .container {
   background-color: #eacbd2;
-  margin-top: -250px; 
-  margin-left: -162px; 
+  margin-top: -240px;
+  margin-left: -162px;
   width: 100%;
   height: 100%;
 
   * {
     box-sizing: border-box;
   }
-  
-  html, body {
+
+  html,
+  body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
   }
-  
+
   body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 10px;
+    padding: 30px 0px;
     font-family: 'DM Sans', sans-serif;
-    transition: background .4s ease-in;
-    background-color: #c394f8;
+    transition: background .6s ease-in;
+    
   }
-  
+
   input[type=radio] {
     display: none;
   }
-  
+
   .card {
     position: absolute;
     width: 60%;
     height: 100%;
-    left: calc(50% - 180px); 
-    top: calc(50% - 300px); 
+    left: calc(50% - 180px);
+    top: calc(50% - 300px);
     transform: translate(-50%, -50%);
     margin: 0px;
     transition: transform .5s ease;
     cursor: pointer;
-    z-index: 6; 
+    z-index: 6;
   }
-  
+
   .cards {
     position: relative;
     width: 100%;
     height: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
-  
+
   img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    object-fit:inherit;
+    object-fit: inherit;
   }
-  
-  #item-1:checked ~ .cards #hairstyle3, #item-2:checked ~ .cards #hairstyle1, #item-3:checked ~ .cards #hairstyle2 {
+
+  #item-1:checked~.cards #hairstyle3,
+  #item-2:checked~.cards #hairstyle1,
+  #item-3:checked~.cards #hairstyle2 {
     transform: translateX(-20%) scale(.8);
     opacity: .4;
     z-index: 3;
   }
-  
-  #item-1:checked ~ .cards #hairstyle2, #item-2:checked ~ .cards #hairstyle3, #item-3:checked ~ .cards #hairstyle1 {
+
+  #item-1:checked~.cards #hairstyle2,
+  #item-2:checked~.cards #hairstyle3,
+  #item-3:checked~.cards #hairstyle1 {
     transform: translateX(20%) scale(.8);
     opacity: .4;
     z-index: 3;
   }
-  
-  #item-1:checked ~ .cards #hairstyle1, #item-2:checked ~ .cards #hairstyle2, #item-3:checked ~ .cards #hairstyle3 {
+
+  #item-1:checked~.cards #hairstyle1,
+  #item-2:checked~.cards #hairstyle2,
+  #item-3:checked~.cards #hairstyle3 {
     transform: translateX(0) scale(1);
     opacity: 1;
     z-index: 5;
-    
+
     img {
       box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
     }
   }
-  
-  #item-1:checked ~ .cards #hairstyle1,
-  #item-2:checked ~ .cards #hairstyle2,
-  #item-3:checked ~ .cards #hairstyle3 {
+
+  #item-1:checked~.cards #hairstyle1,
+  #item-2:checked~.cards #hairstyle2,
+  #item-3:checked~.cards #hairstyle3 {
     transform: translateX(0) scale(1);
     opacity: 1;
     z-index: 5;
   }
-  
-  #item-1:checked ~ .cards #hairstyle2,
-  #item-2:checked ~ .cards #hairstyle3,
-  #item-3:checked ~ .cards #hairstyle1 {
+
+  #item-1:checked~.cards #hairstyle2,
+  #item-2:checked~.cards #hairstyle3,
+  #item-3:checked~.cards #hairstyle1 {
     transform: translateX(40%) scale(.8);
     opacity: .4;
     z-index: 3;
   }
-  
-  #item-1:checked ~ .cards #hairstyle3,
-  #item-2:checked ~ .cards #hairstyle1,
-  #item-3:checked ~ .cards #hairstyle2 {
+
+  #item-1:checked~.cards #hairstyle3,
+  #item-2:checked~.cards #hairstyle1,
+  #item-3:checked~.cards #hairstyle2 {
     transform: translateX(-40%) scale(.8);
     opacity: .4;
     z-index: 4;
@@ -467,4 +483,76 @@ p.logo {
 #rect2 {
   fill: #2b8571;
   stroke: #4311e8;
+  right:0px;
+  bottom:0px;
+  height: 100%;
+  width: 100%;
 }
+
+
+/*Form Page*/
+
+#logo2{
+  position: absolute;
+  top: 10%;
+  left: 42%;
+  width: 200px;
+  height: 200px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+
+}
+
+
+.faqButton:hover {
+  background-image: url('./about\ us\ heart\ white.webp');
+}
+
+.form-container {
+  background-color: #eacbd2;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  width: 100%;
+  align-items: center;
+  align-self: center;
+  
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select {
+  width: 98%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #eacbd2;
+  border-radius: 5px;
+}
+
+.form-container button {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #b486ab;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #a06d9a;
+}
+
