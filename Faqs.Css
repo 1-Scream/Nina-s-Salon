@@ -3,12 +3,13 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #dd9ac2;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dd9ac2;
+  color: #333;
 }
+
 #rect1 {
   fill: #b486ab;
   stroke: #b486ab;
@@ -18,8 +19,8 @@ img {
   position: absolute;
   top: 65px;
   left: 35.5%;
-  width: 400px;  
-  height: 400px;  
+  width: 400px;
+  height: 400px;
 }
 
 .logo {
@@ -37,8 +38,8 @@ img {
 
 /*about us heart*/
 .aboutUs {
-  width: 80px;  
-  height: 52px;  
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -50,6 +51,7 @@ img {
   text-align: center;
   top: 0px;
   left: 50px;
+  color: black;
 }
 
 .aboutUs {
@@ -62,8 +64,8 @@ img {
 
 /*contactUs heart*/
 .contactUs {
-  width: 80px;  
-  height: 52px;  
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -73,10 +75,12 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 150px;
+  color: black;
 
 }
+
 .contactUs {
   transition-duration: 0.8s;
 }
@@ -87,8 +91,8 @@ img {
 
 /*main menu heart*/
 .mainMenu {
-  width: 80px;  
-  height: 52px;  
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -98,10 +102,12 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 250px;
+  color: black;
 
 }
+
 .mainMenu {
   transition-duration: 0.8s;
 }
@@ -112,8 +118,8 @@ img {
 
 /*Faq heart*/
 .faqButton {
-  width: 80px;  
-  height: 52px;  
+  width: 80px;
+  height: 52px;
   background-image: url('./about\ us\ heart.webp');
   background-size: cover;
   background-position: center;
@@ -123,10 +129,12 @@ img {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  top:0px;
+  top: 0px;
   left: 350px;
+  color: black;
 
 }
+
 .faqButton {
   transition-duration: 0.8s;
 }
@@ -139,56 +147,61 @@ img {
 
 /*  FAQ and Email sections */
 .faq-section {
-    margin: 20px 0;
-    text-align: center;
+  margin: 20px 0;
+  text-align: center;
 }
 
 .faq-section h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .faq-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.faq, .email-section,.socials-section {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    flex: 1 1 calc(33.333% - 20px); 
+.faq,
+.email-section,
+.socials-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  flex: 1 1 calc(33.333% - 20px);
 }
 
-.faq:hover{
+.faq:hover {
   transform: translateY(-5px);
- 
+
   text-decoration-color: #ff0099;
-  
+
 }
 
-.faq{
+.faq {
   transition-duration: 0.8s;
 }
 
 .centered-faq {
-    flex: 1 1 100%; /* Make the centered FAQ take the full width */
-    text-align: center; /* Center the text inside the FAQ */
+  flex: 1 1 100%;
+
+  text-align: center;
+
 }
 
 .email-section {
-    flex: 1 1 100%; /* Make the email section take the full width */
-    text-align: center;
-    font-size: 1.5em;
-    min-height: 100%;
-    overflow: hidden;
-    
- 
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 1.5em;
+  min-height: 100%;
+  overflow: hidden;
+
+
 }
+
 .empty {
   padding: 10px;
   color: #ffffff;
@@ -196,53 +209,67 @@ img {
 
 /* Animation */
 
-.line-1{
+.line-1 {
   position: relative;
   font-family: 'Anonymous Pro', monospace;
   width: 30px;
   padding-top: 250%;
   top: 100%;
-  border-right: 2px solid rgba(255,255,255,.75);
+  border-right: 2px solid rgba(255, 255, 255, .75);
   font-size: 181%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-0%);
-  overflow:hidden ;
+  overflow: hidden;
   padding: 10px;
 }
 
 
 
-.anim-typewriter{
+.anim-typewriter {
   animation: typewriter 6s steps(45) 1s 1 normal both,
-             blinkTextCursor 500ms steps(45) infinite normal;
+    blinkTextCursor 500ms steps(45) infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 31em;}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 31em;
+  }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(44, 42, 42, 0.75);}
-  to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(44, 42, 42, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
 }
 
 /*end animation*/
 
 
-.faq h3, .email-section h2 {
-    margin-bottom: 10px;
+.faq h3,
+.email-section h2 {
+  margin-bottom: 10px;
 }
 
-.faq p, .email-section p {
-    margin: 0;
+.faq p,
+.email-section p {
+  margin: 0;
 }
 
 /* Style for Button Section */
 .button-section {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .button-insta {
@@ -254,8 +281,8 @@ img {
   cursor: pointer;
   text-align: center;
   background-image: url('./insta_button.webp');
-  width: 100px; 
-  height: 100px; 
+  width: 100px;
+  height: 100px;
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -264,7 +291,7 @@ img {
   font-size: 11px;
   text-align: center;
 
-  
+
 }
 
 .button-insta {
@@ -285,8 +312,10 @@ img {
   cursor: pointer;
   text-align: center;
   background-image: url('./tt_button.webp');
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 100px;
+
+  height: 100px;
+
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -295,9 +324,11 @@ img {
   font-size: 11px;
   text-align: center;
 }
+
 .button-tt {
   transition-duration: 0.8s;
 }
+
 .button-tt:hover {
   background-image: url('./tt_purple.webp');
 }
@@ -311,8 +342,10 @@ img {
   cursor: pointer;
   text-align: center;
   background-image: url('./fb_button.webp');
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 100px;
+
+  height: 100px;
+
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -328,4 +361,71 @@ img {
 
 .button-fb:hover {
   background-image: url('./fb_purple.webp');
+}
+
+.message-sect {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 8%;
+  flex: 1 1 calc(33.333% - 20px);
+}
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #4a4063;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  position: relative;
+  left: 45%;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
