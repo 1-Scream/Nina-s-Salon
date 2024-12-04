@@ -1,5 +1,10 @@
+@font-face {
+  font-family: OpenDyslexic-Regular;
+  src: url('./OpenDyslexic-Regular.otf');
+}
+
 body {
-  font-family: system-ui;
+  font-family: OpenDyslexic-Regular, system-ui;
   margin: 0;
   padding: 0;
   background: #dd9ac2;
