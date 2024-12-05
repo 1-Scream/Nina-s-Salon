@@ -103,6 +103,7 @@
 
                 <label for="How did you hear of us">How did you hear of us</label>
                 <select id="How did you hear of us" name="How did you hear of us" required>
+                  <option value="" disabled selected>Select an option</option>
                   <option value="Instagram">Instagram</option>
                   <option value="Tiktok">Tiktok</option>
                   <option value="Linkedin">Linkedin</option>
@@ -116,9 +117,27 @@
 
                 <label for="Payment">Would you like to pay in full or deposit?</label>
                 <select id="Payment" name="Payment" required>
+                  <option value="" disabled selected>Select an option</option>
                   <option value="Advance Payment">Advance Payment</option>
                   <option value="Deposit">Deposit</option>
                 </select>
+
+                <label for="inquiry-type">Inquiry Type:</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="booking">Booking</option>
+                  <option value="product-recommendations">Product Recommendations</option>
+                  <option value="general-questions">General Questions</option>
+                </select>
+
+                <label for="additional-details"Additional Details:></label>
+                <textarea
+                  id="additional-details"
+                  name="additional-details"
+                  rows="5"
+                  placeholder="Provide more details here...."
+                  required>
+                </textarea>
 
     
                 <button type="submit">Book Appointment</button>
