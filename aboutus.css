@@ -1,19 +1,24 @@
-
 @font-face {
-  font-family: OpenDyslexic-Regular;
-  src: url('./OpenDyslexic-Regular.otf');
+  font-family: 'OpenDyslexicRegular';
+  src: url('./fonts/OpenDyslexic-Regular.otf') format('opentype');
 }
 
 body {
-  font-family: 'OpenDyslexic-Regular', sans-serif; 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  font-family: 'OpenDyslexicRegular', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OpenDyslexic-Regular', sans-serif;
+}
 
-.elongated-rect {
+.elongated-rect 
+{
   width: 2000px; 
   height: 60px; 
   background-color: #B486AB
@@ -25,20 +30,22 @@ body {
     stroke: #eacbd2;
     z-index: 1000;
     background-color: #B486AB;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   
   img {
     position: absolute;
     top: 65px;
     right: 150px;
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
+    width: 400px; 
+    height: 400px; 
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   
   /*about us heart*/
   .aboutUs {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
+    width: 80px; 
+    height: 52px; 
     background-image: url('./about\ us\ heart.webp');
     background-size: cover;
     background-position: center;
@@ -50,6 +57,7 @@ body {
     text-align: center;
     top: 0px;
     left: 100px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   
   .aboutUs {
@@ -62,8 +70,8 @@ body {
   
   /*contactUs heart*/
   .contactUs {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
+    width: 80px; 
+    height: 52px; 
     background-image: url('./about\ us\ heart.webp');
     background-size: cover;
     background-position: center;
@@ -75,7 +83,6 @@ body {
     text-align: center;
     top:0px;
     left: 200px;
-  
   }
   .contactUs {
     transition-duration: 0.8s;
@@ -101,6 +108,7 @@ body {
     top:0px;
     left: 300px;
     background-color: #B486AB;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   .mainMenu {
     transition-duration: 0.8s;
@@ -112,8 +120,8 @@ body {
   
   /*Faq heart*/
   .faqButton {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
+    width: 80px; 
+    height: 52px; 
     background-image: url('./about\ us\ heart.webp');
     background-size: cover;
     background-position: center;
@@ -124,7 +132,8 @@ body {
     font-size: 11px;
     text-align: center;
     top:0px;
-    left: 350px;
+    left: 400px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   
   }
   .faqButton {
@@ -139,7 +148,7 @@ body {
   .logo {
     position: absolute;
     top: 70px;
-    right:7%;
+    left: 1295px;
     width: 147px; 
     height: 120px; 
     text-align: center;
@@ -190,7 +199,8 @@ body {
     font-size: 11px;
     text-align: center;
     top: 0px;
-    left: 50px;
+    left: 100px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   
   .aboutUs {
@@ -214,7 +224,8 @@ body {
     font-size: 11px;
     text-align: center;
     top:0px;
-    left: 150px;
+    left: 200px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   
   }
   .contactUs {
@@ -239,7 +250,8 @@ body {
     font-size: 11px;
     text-align: center;
     top:0px;
-    left: 250px;
+    left: 300px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   
   }
   .mainMenu {
@@ -250,11 +262,6 @@ body {
     background-image: url('https://i.postimg.cc/WpBJCj5Z/about-us-heart-white.png');
   }
   
-  
-  
-  /*
-  book now Button Code
-  */
   .bookNow {
     border-radius: 12px;
     padding: 20px 82px;
@@ -267,6 +274,7 @@ body {
     color: #ffffff;
     border: 1px solid #dd9ac2;
     position: relative;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   .bookNow {
     transition-duration: 0.8s;
@@ -277,25 +285,25 @@ body {
     color: #4a4063;
   }
 
-/* Body Styling */
 body {
     font-family: 'Source Sans 3', sans-serif;
     color: #4A4063;
     background-color: #EACBD2;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
-
-/* Header */
 header {
     background-color: #9adda5;
     padding: 20px;
     text-align: center;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 header h1 {
     color: #59575f;
     font-size: 50px;
     font-weight: 600;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 nav ul {
@@ -322,24 +330,6 @@ img {
   width: 100px; 
   height: 100px; 
 }
-/* Hero Section */
-.hero {
-    background-color: #DD9AC2;
-    padding: 50px;
-    text-align: center;
-    margin-top: -25px;
-}
-
-.hero h2 {
-    font-size: 2em;
-    color: #4A4063;
-}
-
-.hero img {
-    width: 100px;
-    height: auto;
-    margin: 20px 0;
-}
 
 /* Services Section */
 .services {
@@ -347,6 +337,7 @@ img {
     justify-content: space-around;
     background-color: #EACBD2;
     padding: 40px 0;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .services div {
@@ -362,19 +353,20 @@ img {
     color: #EACBD2;
     font-size: 20px;
     margin-bottom: 10px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .services p {
     color: #EACBD2;
 }
 
-/* Info Section */
+
 .info-section {
     text-align: center;
     padding: 50px 0;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
-/* Team Section */
 .team-section {
     display: flex;
     justify-content: center; 
@@ -382,6 +374,7 @@ img {
     gap: 20px; 
     padding: 50px 0;
     background-color: #EACBD2;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .team-box {
@@ -414,6 +407,7 @@ img {
     color: #4A4063;
     font-size: 1.1em;
     margin-bottom: 20px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 /* Learn more button */
@@ -426,6 +420,7 @@ img {
     font-weight: 600;
     display: inline-block;
     transition: background-color 0.3s ease;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .learn-more-btn:hover {
@@ -437,15 +432,18 @@ img {
     background-color: #DD9AC2;
     padding: 40px;   
     text-align: center;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .contact h2 {
     color: #4A4063;
     font-size: 40px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .contact form {
     margin-top: 20px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .contact form input[type="email"] {
@@ -454,6 +452,7 @@ img {
     border: 1px solid #4A4063;
     border-radius: 5px;
     background-color: #EACBD2;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .contact form input[type="submit"] {
@@ -463,6 +462,7 @@ img {
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 /* General styling for Why Choose Us section */
 .why-choose-us {
@@ -473,6 +473,7 @@ img {
     background-color: #EACBD2;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .why-choose-us h3 {
@@ -480,6 +481,7 @@ img {
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: -250px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
 .why-choose-us p {
@@ -550,7 +552,6 @@ img {
   }
   
 
-/* Footer */
 footer {
     background-color: #4A4063;
     padding: 20px;
