@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'OpenDyslexicRegular';
+  font-family: 'OpenDyslexic-Regular';
   src: url('./fonts/OpenDyslexic-Regular.otf') format('opentype');
+  font-display: swap;
 }
 
 body {
-  font-family: 'OpenDyslexicRegular', Arial, sans-serif;
+  font-family: 'OpenDyslexic-Regular', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #4A4063;
+  background-color: #EACBD2;
 }
 
 * 
@@ -42,7 +45,6 @@ body {
     font-family: 'OpenDyslexic-Regular', sans-serif;
   }
   
-  /*about us heart*/
   .aboutUs {
     width: 80px; 
     height: 52px; 
@@ -68,7 +70,6 @@ body {
     background-image: url('./about\ us\ heart\ white.webp');
   }
   
-  /*contactUs heart*/
   .contactUs {
     width: 80px; 
     height: 52px; 
@@ -92,10 +93,9 @@ body {
     background-image: url('./about\ us\ heart\ white.webp');
   }
   
-  /*main menu heart*/
   .mainMenu {
-    width: 80px; /* Adjust the width as needed */
-    height: 52px; /* Adjust the height as needed */
+    width: 80px; 
+    height: 52px; 
     background-image: url('./about\ us\ heart.webp');
     background-size: cover;
     background-position: center;
@@ -118,7 +118,7 @@ body {
     background-image: url('./about\ us\ heart\ white.webp');
   }
   
-  /*Faq heart*/
+
   .faqButton {
     width: 80px; 
     height: 52px; 
@@ -331,7 +331,27 @@ img {
   height: 100px; 
 }
 
-/* Services Section */
+.intro_section {
+    background-color: #DD9AC2;
+    padding: 50px;
+    text-align: center;
+    margin-top: -25px;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
+}
+
+.intro_section h2 {
+    font-size: 2em;
+    color: #4A4063;
+    font-family: 'OpenDyslexic-Regular', sans-serif;
+}
+
+.intro_section img {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+
 .services {
     display: flex;
     justify-content: space-around;
@@ -410,7 +430,7 @@ img {
     font-family: 'OpenDyslexic-Regular', sans-serif;
 }
 
-/* Learn more button */
+
 .learn-more-btn {
     text-decoration: none;
     background-color: #4A4063;
@@ -427,7 +447,7 @@ img {
     background-color: #B486AB; 
 }
 
-/* Contact Section */
+
 .contact {
     background-color: #DD9AC2;
     padding: 40px;   
@@ -464,7 +484,7 @@ img {
     border-radius: 5px;
     font-family: 'OpenDyslexic-Regular', sans-serif;
 }
-/* General styling for Why Choose Us section */
+
 .why-choose-us {
     text-align:center;
     padding: 50px 0;
